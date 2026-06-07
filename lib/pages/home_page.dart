@@ -27,10 +27,8 @@ class _HomePageState extends State<HomePage> {
                 //Left Sidebar
                 SideBar(),
                 //Main Content
-                Expanded(
-                  child: MainBody(),
-                ),
-                //Right Sidebar (Now Playing)
+                Expanded(child: MainBody()),
+                //Right Sidebar
                 RightSidebar(),
               ],
             ),
